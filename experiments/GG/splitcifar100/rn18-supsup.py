@@ -48,7 +48,7 @@ def main():
     data = args.data
 
     config = "experiments/GG/splitcifar100/configs/rn18-supsup.yaml"
-    log_dir = "runs/rn18-supsup"
+    log_dir = "runs/rn18-supsup_weighted_max"
     experiments = []
     sparsities = [1, 2, 4, 8, 16, 32] # Higher sparsity values mean more dense subnetworks
 
